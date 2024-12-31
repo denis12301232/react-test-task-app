@@ -30,17 +30,29 @@ export function Transactions() {
       >
         <Table.Column title="Операция" dataIndex="operation" key="operation" />
         <Table.Column
+          className="text-nowrap"
           title="Валюта 1"
           dataIndex="currency_1"
           key="currency_1"
         />
-        <Table.Column title="Сумма 1" dataIndex="sum_1" key="sum_1" />
         <Table.Column
+          className="text-nowrap"
+          title="Сумма 1"
+          dataIndex="sum_1"
+          key="sum_1"
+        />
+        <Table.Column
+          className="text-nowrap"
           title="Валюта 2"
           dataIndex="currency_2"
           key="currency_2"
         />
-        <Table.Column title="Сумма 1" dataIndex="sum_2" key="sum_2" />
+        <Table.Column
+          className="text-nowrap"
+          title="Сумма 2"
+          dataIndex="sum_2"
+          key="sum_2"
+        />
         <Table.Column title="Курс" dataIndex="course" key="course" />
         <Table.Column
           title="Время"
