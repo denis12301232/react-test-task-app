@@ -52,7 +52,7 @@ export function Transactions() {
       </Table>
       <Modal
         title="Добавить транзакцию"
-        wrapClassName="!overflow-hidden"
+        wrapClassName="!overflow-x-hidden"
         open={modal}
         onOk={() => setModal(false)}
         onCancel={() => setModal(false)}
